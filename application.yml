@@ -1,8 +1,7 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb://127.0.0.1:27017/microservice
-  datasource:
-    url: postgresql://iblrcnaa:NzSFyMEaa2hAOZ1NJxizLJjXNR8r8pz6@mahmud.db.elephantsql.com/iblrcnaa
-    username: iblrcnaa
-    password: NzSFyMEaa2hAOZ1NJxizLJjXNR8r8pz6
+mongo:
+  host: 127.0.0.1
+  port: 27017
+  database: microservice
+
+elephantsql:
+  connection: postgresql://iblrcnaa:NzSFyMEaa2hAOZ1NJxizLJjXNR8r8pz6@mahmud.db.elephantsql.com/iblrcnaa
