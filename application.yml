@@ -1,7 +1,0 @@
-mongo:
-  host: 127.0.0.1
-  port: 27017
-  database: microservice
-
-elephantsql:
-  connection: postgresql://iblrcnaa:NzSFyMEaa2hAOZ1NJxizLJjXNR8r8pz6@mahmud.db.elephantsql.com/iblrcnaa
